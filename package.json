@@ -1,0 +1,17 @@
+{
+  "name": "read-this",
+  "version": "1.0.0",
+  "description": "Read This! Read This is a command line program that will auto generate a professional README after you fill out the requested information.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Stemler",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^10.1.8"
+  }
+}
