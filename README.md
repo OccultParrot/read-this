@@ -1,6 +1,6 @@
 # Read This
 
-!(MIT badge)[https://img.shields.io/badge/license-MIT-green]
+![MIT badge](https://img.shields.io/badge/license-MIT-green)
 
 Read This is a READMEs generator where the user answers some questions and it outputs a professional READMEs
 
