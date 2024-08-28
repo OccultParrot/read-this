@@ -3,12 +3,14 @@ import inquirer from "inquirer";
 import fs from "fs";
 import parseAnswers from "./utils/parseAnswers.js";
 
+// Adding some themes for the console
 colors.setTheme({
     warn:"yellow",
     danger:"red",
     success:"brightGreen"
 })
 
+// Every question we ask
 const questions = [
     {
         name: "projectName",
@@ -75,11 +77,13 @@ function displayTitle() {
 function writeToFile(fileName, data) {
     const path = `./output/${fileName}`;
     console.log(`Writing content to ${path}...`.warn)
+
     fs.writeFile(path, data, (err) => {
         if (err) {
             console.log("Error!", err);
         }
     });
+
     console.log(`Finished writing ${path}`.success)
 }
 
