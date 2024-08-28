@@ -5,23 +5,11 @@ function addSectionIfExists(array, sectionName, sectionContent) {
         console.log(`No ${sectionName}.`.warn);
 }
 
-function parseListAnswer(answer) {
-    const name = answer.sectionName
-    const content = answer.sectionContent.split(", ");
-
-    let value = `## ${name}\n`;
-    
-    for (const item of content) {
-        value += item;
-    }
-    value += "\n";
-
-    return value;
-}
 
 function parseAnswers(results) {
     const contentsArray = [];
 
+    // Adds each section to the array so we can loop over them.
     addSectionIfExists(contentsArray, "Description", results.longDescription);
     addSectionIfExists(contentsArray, "License", results.license)
     addSectionIfExists(contentsArray, "Installation", results.installationInstructions);
@@ -30,8 +18,7 @@ function parseAnswers(results) {
     addSectionIfExists(contentsArray, "Tests", results.tests)
     addSectionIfExists(contentsArray, "Questions", `[Link to my GitHubAccount](https://github.com/${results.gitHubUsername})\n\nHave questions? Reach out to me at ${results.email}`)
 
-    const a = "";
-    a.replace()
+    // The string that will be returned at the end of the function
     let outputString =
     `# ${results.projectName}
 
@@ -41,6 +28,7 @@ ${results.shortDescription}
 
 # Table of Contents
 `;
+    // Adding items to the table of contents list
     contentsArray.forEach((content) => {
         outputString += ` - [${content.sectionName}](#${content.sectionName})\n`;
     });
@@ -59,8 +47,8 @@ ${results.shortDescription}
         }
     }
 
+    // Adds a little tag to spread awareness (so I hope lol)
     outputString += "[Generated using Read This](https://github.com/OccultParrot/read-this)"
-    console.log(outputString)
     return outputString;
 }
 
