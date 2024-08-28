@@ -35,7 +35,7 @@ function parseAnswers(results) {
     let outputString =
     `# ${results.projectName}
 
-!(${results.license} badge)[https://img.shields.io/badge/license-${results.license.replace(" ", "_")}-green]
+![${results.license} badge](https://img.shields.io/badge/license-${results.license.replace(" ", "_")}-green)
 
 ${results.shortDescription}
 
