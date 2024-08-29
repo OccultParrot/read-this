@@ -75,7 +75,7 @@ function displayTitle() {
 }
 
 function writeToFile(fileName, data) {
-    const path = `./output/${fileName}`;
+    const path = `./output/${fileName}.md`;
     console.log(`Writing content to ${path}...`.warn)
 
     fs.writeFile(path, data, (err) => {
