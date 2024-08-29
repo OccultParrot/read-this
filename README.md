@@ -4,7 +4,7 @@
 
 For a walkthrough on the installation and usage, check out [this video](https://www.youtube.com/watch?v=eSAXUwjTt9c)!
 
-Read This is a READMEs generator where the user answers some questions and it outputs a professional READMEs
+Read This is a README generator where the user answers some questions and it outputs a professional README
 
 # Table of Contents
  - [Description](#Description)
@@ -13,11 +13,13 @@ Read This is a READMEs generator where the user answers some questions and it ou
  - [Usage](#Usage)
  - [Questions](#Questions)
 
+
 ## Description
             
-Hate writing READMEss? Well me too! In order to fix that problem I have written this console application in order to stream line the process!
+Hate writing READMEs? Well me too! To fix that problem, I have written this console application in order to streamline the process!
 
 ## License
+
 To view license, click [here](LICENSE)
 
 ## Installation
@@ -26,11 +28,13 @@ If you do not have Node.js installed, install that first! Once installed, click 
 
 ## Usage
             
-Navagate to the directory that holds the files from the .zip file. Once there, simpily type `npm start` and the program will start asking you questions! After answering them all, look in the output folder and you will see your READMEs file! \*BEWARE The program will rewrite any read me files in the output directory!\*
+Navigate to the directory that holds the files from the .zip file. Once there, simply type `npm start` and the program will start asking you questions! After answering them all, look in the output folder and you will see your README file! 
+*BEWARE: The program will rewrite any README files in the output directory!*
 
 ## Questions
             
 [Link to my GitHubAccount](https://github.com/occultparrot)
+
 Have questions? Reach out to me at stemlertho@gmail.com
 
 [Generated using Read This](https://github.com/OccultParrot/read-this)
