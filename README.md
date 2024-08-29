@@ -23,6 +23,7 @@ If you do not have Node.js installed, install that first! Once installed, click 
 
 ## Usage
 Navigate to the directory that holds the files from the .zip file. Once there, simply type `npm start` and the program will start asking you questions! After answering them all, look in the output folder and you will see your README file! 
+
 **BEWARE: The program will rewrite any README files in the output directory!**
 
 ## Questions
