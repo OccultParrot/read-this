@@ -2,6 +2,8 @@
 
 ![MIT badge](https://img.shields.io/badge/license-MIT-green)
 
+For a walkthrough on the installation and usage, check out [this video](https://www.youtube.com/watch?v=eSAXUwjTt9c)!
+
 Read This is a READMEs generator where the user answers some questions and it outputs a professional READMEs
 
 # Table of Contents
