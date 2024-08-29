@@ -1,4 +1,4 @@
-# Read This
+# Read This!
 
 ![MIT badge](https://img.shields.io/badge/license-MIT-green)
 
