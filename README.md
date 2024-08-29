@@ -22,7 +22,8 @@ To view license, click [here](LICENSE)
 If you do not have Node.js installed, install that first! Once installed, click the "Code" button on the left and click "Download .Zip". Extract everything in that .zip file and you are ready to use it!
 
 ## Usage
-Navigate to the directory that holds the files from the .zip file. Once there, simply type `npm start` and the program will start asking you questions! After answering them all, look in the output folder and you will see your README file! **BEWARE: The program will rewrite any README files in the output directory!**
+Navigate to the directory that holds the files from the .zip file. Once there, simply type `npm start` and the program will start asking you questions! After answering them all, look in the output folder and you will see your README file! 
+**BEWARE: The program will rewrite any README files in the output directory!**
 
 ## Questions
 [Link to my GitHubAccount](https://github.com/occultparrot)
